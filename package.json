@@ -90,7 +90,7 @@
     },
     "pnpm": {
         "overrides": {
-            "zigbee-herdsman": "$zigbee-herdsman"
+            "zigbee-herdsman": "git+https://github.com/captainlettuce/zigbee-herdsman.git"
         },
         "onlyBuiltDependencies": [
             "@serialport/bindings-cpp",
